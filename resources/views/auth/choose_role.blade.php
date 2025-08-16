@@ -36,13 +36,13 @@
             <h2 class="text-2xl font-semibold mb-8 text-center text-gray-800">Login Sebagai</h2>
             <div class="space-y-4">
                 <a href="{{ route('admin.login')}}" class="block w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 rounded-lg shadow text-center">
-                    👤 Admin
+                    Admin
                 </a>
                 <a href="{{ route('teacher.login') }}" class="block w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-lg shadow text-center">
-                    👨‍🏫 Guru
+                    Guru
                 </a>
                 <a href="{{ route('student.login') }}" class="block w-full bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 rounded-lg shadow text-center">
-                    🎓 Siswa
+                    Siswa
                 </a>
             </div>
         </div>
